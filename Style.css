@@ -21,3 +21,21 @@ nav {width:"100%";}
             background-size: cover;
             z-index: -1;   
           }
+
+          img {
+            width: 80%;
+            height: auto;
+            margin-left: 10%;
+            margin-top: 2cm;
+            opacity: 90%;
+
+          }
+
+          footer {
+            background-color: whitesmoke; opacity: 60%;
+
+          }
+
+          h1 {text-align: center;}
+
+          .lead {text-align: center;}
