@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="./Style.css">
@@ -14,10 +16,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="./index.html">Robert Sunde</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
               <li class="nav-item">
                   <a class="nav-link" href="./index.html">Index</a>
@@ -30,11 +32,27 @@
               </li>
           </ul>
       </div>
+      
   </nav>
-  <div class="container background">
-
-
-  </div>
+<!-- Contact Me Form -->
+<div class="container" style="background-color: rgb(255, 255, 255); padding: 1cm; width:auto; max-width: 20cm; margin-top: 2cm;">
+  <form>
+    <div class="form-group">
+      <label for="InputName" style="font-weight: bold;">Name</label>
+      <input type="name" class="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Your Name Here">
+    </div>
+    <div class="form-group">
+      <label for="InputEmail" style="font-weight: bold;">Email</label>
+      <input type="email" class="form-control" id="InputEmail" placeholder="Your Email Here">
+      <small id="emailHelp" class="form-text text-muted">Your email will only be utilized for responses!</small>
+    </div>
+    <div class="form-group">
+        <label for="InputMessage" style="font-weight: bold;">Message</label>
+        <input type="message" class="form-control" id="InputMessage" placeholder="Leave Me a Message!">
+      </div>    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
  <footer>
      <!-- Add sticky footer here -->
  </footer>
