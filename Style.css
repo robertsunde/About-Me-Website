@@ -1,13 +1,4 @@
-nav {width:"100%";}
-
-/* .background {  */
-            /* background: url(./Assets/Motherboard\ Background.jpg) no-repeat center center fixed; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-            z-index: -9;
-          } */
+          nav {width:"100%";}
 
           body::after {
             content: "";
@@ -36,6 +27,39 @@ nav {width:"100%";}
 
           }
 
-          h1 {text-align: center;}
+          h1, .lead, p {text-align: center;}
 
-          .lead {text-align: center;}
+          .navbar-collapse.collapse.in {
+            display: block!important;
+          }
+
+          .contactMe {
+            background-color: rgb(255, 255, 255);
+            padding: 1cm; width:auto;
+            max-width: 20cm;
+            margin-top: 2cm;}
+
+          .jumboIndex, .jumboPortfolio {
+            margin-top: 2cm; 
+            padding: 1cm;
+          }
+
+          .linkedin {
+            border: 0cm;
+            margin-top: 0cm;
+            float: right;
+          }
+
+          .github {
+            width: 3.2cm;
+            height: auto;
+            margin-top: 0;
+          }
+
+          .linkedinlink {
+            padding: .1cm;
+          } 
+          
+          .githublink {
+            padding: 0cm;
+          }
