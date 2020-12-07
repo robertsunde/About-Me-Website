@@ -19,12 +19,10 @@
             margin-left: 10%;
             margin-top: 2cm;
             opacity: 90%;
-
           }
 
           footer {
             background-color: whitesmoke; opacity: 60%;
-
           }
 
           h1, .lead, p {text-align: center;}
@@ -65,10 +63,47 @@
           }
 
           .display-4 {
-            font-size: 6vw;
+            font-size: 70px;
+            font-weight: 300;   
           }
 
           .generalfont {
+            font-size: 25px;
+          }
+     
+          .btncolor {
+            background-color: black;
+            padding: 5px;
+            font-size: 25px;
+          }
 
+          a.btncolor:hover{
+            background-color: blueviolet;
+          }
+
+          @media screen and (max-width: 1000px) {
+
+          .display-4 {
+            font-size: 7vw;
+            font-weight: 300;   
+          }
+
+          .generalfont {
             font-size: 2vw;
           }
+
+          .btncolor {
+            background-color: black;
+            padding: 1vw;
+            font-size: 2vw;
+          }
+
+          a.btncolor:hover{
+            background-color: blueviolet;
+          }
+          }
+
+          .form-group {
+            font-weight: bold;
+          }
+
