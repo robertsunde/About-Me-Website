@@ -110,6 +110,8 @@
 
           @media screen and (max-width: 575px) {
           .biospic {
+            width: 80%;
+            height: auto;
             padding-bottom: .5cm;
             margin-left: 37%;
           }
