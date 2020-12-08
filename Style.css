@@ -81,6 +81,10 @@
             background-color: blueviolet;
           }
 
+          .biospic {
+            padding-top: 1cm;
+          }
+
           @media screen and (max-width: 1000px) {
 
           .display-4 {
@@ -90,6 +94,7 @@
 
           .generalfont {
             font-size: 2vw;
+          
           }
 
           .btncolor {
@@ -105,18 +110,30 @@
           .biospic {
             width: 20vw;
             height: auto;
+            padding-top: 1cm;
           }
           }
 
           @media screen and (max-width: 575px) {
-          .biospic {
-            width: 80%;
-            height: auto;
-            padding-bottom: .5cm;
-            margin-left: 37%;
-          }
-          }
+            .biospic {
+              width: 80%;
+              height: auto;
+              padding-bottom: .5cm;
+  
+            }
+            }
 
+          @media screen and (max-width: 350px) {
+            .biospic {
+                width: 80%;
+                height: auto;
+                padding-bottom: .5cm;
+              }
+            .generalfont {
+                font-size: 4vw;
+              }
+            }
+  
           .form-group {
             font-weight: bold;
           }
@@ -134,3 +151,4 @@
             padding-bottom: .5cm;
             
           }
+
