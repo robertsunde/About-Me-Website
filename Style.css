@@ -120,13 +120,15 @@
           }
 
           .lead {
-            margin-top: 50px;
+            margin-top: 0px;
           }
 
           .biospic {
             margin-top: 0px;
           }
 
-          .row {
+          .col-sm-8 {
             padding-top: 1cm;
+            padding-bottom: .5cm;
+            
           }
