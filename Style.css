@@ -101,9 +101,32 @@
           a.btncolor:hover{
             background-color: blueviolet;
           }
+
+          .biospic {
+            width: 20vw;
+            height: auto;
+          }
+          }
+
+          @media screen and (max-width: 575px) {
+          .biospic {
+            padding-bottom: .5cm;
+            margin-left: 37%;
+          }
           }
 
           .form-group {
             font-weight: bold;
           }
 
+          .lead {
+            margin-top: 50px;
+          }
+
+          .biospic {
+            margin-top: 0px;
+          }
+
+          .row {
+            padding-top: 1cm;
+          }
