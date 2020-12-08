@@ -124,26 +124,21 @@
             }
 
           @media screen and (max-width: 350px) {
-            .biospic {
-                width: 80%;
-                height: auto;
-                padding-bottom: .5cm;
-              }
             .generalfont {
                 font-size: 4vw;
-              }
-            }
+          }
+        }
   
-          .form-group {
-            font-weight: bold;
+            .form-group {
+              font-weight: bold;
           }
 
-          .lead {
-            margin-top: 0px;
+            .lead {
+              margin-top: 0px;
           }
 
-          .biospic {
-            margin-top: 0px;
+           .biospic {
+             margin-top: 0px;
           }
 
           .col-sm-8 {
