@@ -1,149 +1,148 @@
-          nav {width:"100%";}
+nav {width:"100%";}
 
-          body::after {
-            content: "";
-            background: url(./Assets/Motherboard\ Background.jpg);
-            opacity: 0.7;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            position: fixed;
-            background-size: cover;
-            z-index: -1;   
-          }
+body::after {
+  content: "";
+  background: url(./Assets/Motherboard\ Background.jpg);
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  background-size: cover;
+  z-index: -1;   
+  }
 
-          img {
-            width: 80%;
-            height: auto;
-            margin-left: 10%;
-            margin-top: 2cm;
-            opacity: 90%;
-          }
+img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 2cm;
+  opacity: 90%;
+  }
 
-          footer {
-            background-color: whitesmoke; opacity: 60%;
-          }
+footer {
+  background-color: whitesmoke; opacity: 60%;
+  }
 
-          h1, .lead, p {text-align: center;}
+h1, .lead, p {
+  text-align: center;
+  }
 
-          .navbar-collapse.collapse.in {
-            display: block!important;
-          }
+.navbar-collapse.collapse.in {
+  display: block!important;
+  }
 
-          .contactMe {
-            background-color: rgb(255, 255, 255);
-            padding: 1cm; width:auto;
-            max-width: 20cm;
-            margin-top: 2cm;}
+.contactMe {
+  background-color: rgb(255, 255, 255);
+  padding: 1cm; width:auto;
+  max-width: 20cm;
+  margin-top: 2cm;}
 
-          .jumboIndex, .jumboPortfolio {
-            margin-top: 2cm; 
-            padding: 1cm;
-          }
+.jumboIndex, .jumboPortfolio {
+  margin-top: 2cm; 
+  padding: 1cm;
+  }
 
-          .linkedin {
-            border: 0cm;
-            margin-top: 0cm;
-            float: right;
-          }
+.linkedin {
+  border: 0cm;
+  margin-top: 0cm;
+  float: right;
+  }
 
-          .github {
-            width: 3.2cm;
-            height: auto;
-            margin-top: 0;
-          }
+.github {
+  width: 3.2cm;
+  height: auto;
+  margin-top: 0;
+  }
 
-          .linkedinlink {
-            padding: .1cm;
-          } 
+.linkedinlink {
+  padding: .1cm;
+  } 
           
-          .githublink {
-            padding: 0cm;
-          }
+.githublink {
+  padding: 0cm;
+  }
 
-          .display-4 {
-            font-size: 70px;
-            font-weight: 300;   
-          }
+.display-4 {
+  font-size: 70px;
+  font-weight: 300;   
+  }
 
-          .generalfont {
-            font-size: 25px;
-          }
+.generalfont {
+  font-size: 25px;
+  }
      
-          .btncolor {
-            background-color: black;
-            padding: 5px;
-            font-size: 25px;
-          }
+.btncolor {
+  background-color: black;
+  padding: 5px;
+  font-size: 25px;
+  }
 
-          a.btncolor:hover{
-            background-color: blueviolet;
-          }
+a.btncolor:hover{
+  background-color: blueviolet;
+  }
 
-          .biospic {
-            padding-top: 1cm;
-          }
+.biospic {
+  padding-top: 1cm;
+  }
 
-          @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
-          .display-4 {
-            font-size: 7vw;
-            font-weight: 300;   
-          }
+  .display-4 {
+    font-size: 7vw;
+    font-weight: 300;   
+    }
 
-          .generalfont {
-            font-size: 2vw;
-          
-          }
+  .generalfont {
+    font-size: 2vw;
+    }
 
-          .btncolor {
-            background-color: black;
-            padding: 1vw;
-            font-size: 2vw;
-          }
+  .btncolor {
+    background-color: black;
+    padding: 1vw;
+    font-size: 2vw;
+    }
 
-          a.btncolor:hover{
-            background-color: blueviolet;
-          }
+   a.btncolor:hover{
+    background-color: blueviolet;
+    }
 
-          .biospic {
-            width: 20vw;
-            height: auto;
-            padding-top: 1cm;
-          }
-          }
+  .biospic {
+    width: 20vw;
+    height: auto;
+    padding-top: 1cm;
+    }
+    }
 
-          @media screen and (max-width: 575px) {
-            .biospic {
-              width: 80%;
-              height: auto;
-              padding-bottom: .5cm;
+@media screen and (max-width: 575px) {
+  .biospic {
+    width: 80%;
+    height: auto;
+    padding-bottom: .5cm;
+    }
+    }
+
+@media screen and (max-width: 350px) {
+  .generalfont {
+    font-size: 4vw;
+    }
+    }
   
-            }
-            }
+.form-group {
+  font-weight: bold;
+  }
 
-          @media screen and (max-width: 350px) {
-            .generalfont {
-                font-size: 4vw;
-          }
-        }
-  
-            .form-group {
-              font-weight: bold;
-          }
+.lead {
+  margin-top: 0px;
+  }
 
-            .lead {
-              margin-top: 0px;
-          }
+.biospic {
+  margin-top: 0px;
+  }
 
-           .biospic {
-             margin-top: 0px;
-          }
-
-          .col-sm-8 {
-            padding-top: 1cm;
-            padding-bottom: .5cm;
-            
-          }
+.col-sm-8 {
+  padding-top: 1cm;
+  padding-bottom: .5cm;        
+  }
 
