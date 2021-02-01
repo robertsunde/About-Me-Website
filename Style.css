@@ -146,3 +146,9 @@ a.btncolor:hover{
   padding-bottom: .5cm;        
   }
 
+.contactformat {
+
+  font-size: 35px;
+  font-weight: 300;  
+  text-align: center; 
+  }
