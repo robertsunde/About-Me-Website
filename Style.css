@@ -152,3 +152,17 @@ a.btncolor:hover{
   font-weight: 300;  
   text-align: center; 
   }
+
+.portfolio {
+
+margin-bottom: 10cm;
+margin-top: 3cm;
+}
+
+.imageHeaders {
+
+  text-align: center;
+  color: white;
+  text-decoration: none;
+
+}
